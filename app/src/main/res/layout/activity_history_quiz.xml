@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/hquizintro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="@string/loading"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <Button
+        android:id="@+id/history_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_button_type1"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="@string/loading"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@id/hquizintro"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <Button
+        android:id="@+id/history_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_button_type1"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="@string/loading"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@id/history_btn1"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp" />
+
+
+    <Button
+        android:id="@+id/history_btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_button_type1"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="@string/loading"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@id/history_btn2"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp" />
+
+
+    <Button
+        android:id="@+id/history_btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_button_type1"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="@string/loading"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@id/history_btn3"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/_00_00"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:id="@+id/historyTimer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/history_btn4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

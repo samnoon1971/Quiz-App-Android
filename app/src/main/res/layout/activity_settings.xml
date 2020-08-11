@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/settings_activity_title_tv"
+        android:text="@string/settings"
+        android:background="@drawable/customtv_1"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        tools:ignore="MissingConstraints"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_no_ofQues"
+        android:text="@string/no_of_questions"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:background="@drawable/customtv_1"
+        app:layout_constraintTop_toBottomOf="@id/settings_activity_title_tv"
+        tools:ignore="MissingConstraints"
+        android:gravity="center_horizontal" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextQues"
+        android:text="@string/_00"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintTop_toBottomOf="@id/id_no_ofQues"
+        tools:ignore="MissingConstraints"
+        android:gravity="center_horizontal"
+        android:autofillHints="" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_no_ofSeconds"
+        android:text="@string/no_of_seconds"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:background="@drawable/customtv_1"
+        app:layout_constraintTop_toBottomOf="@id/editTextQues"
+        tools:ignore="MissingConstraints"
+        android:gravity="center_horizontal" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextSeconds"
+        android:text="@string/_00_00"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintTop_toBottomOf="@id/id_no_ofSeconds"
+        android:gravity="center_horizontal"
+        android:autofillHints=""
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/save_changesBtn"
+        android:text="@string/start_quiz"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:background="@drawable/custom_button_type1"
+        app:layout_constraintTop_toBottomOf="@id/editTextSeconds"
+        android:gravity="center_horizontal"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/backBtnSettings"
+        android:text="@string/back_to_menu"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:background="@drawable/custom_button_type1"
+        app:layout_constraintTop_toBottomOf="@id/save_changesBtn"
+        android:gravity="center_horizontal"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

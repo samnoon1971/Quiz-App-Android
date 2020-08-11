@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/new_game_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_button_type1"
+        android:text="@string/new_game"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/qicon"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="33dp" />
+
+
+
+    <Button
+        android:id="@+id/about_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/about"
+        android:background="@drawable/custom_button_type1"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/new_game_tv"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <Button
+        android:id="@+id/exit_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="@string/exit"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:background="@drawable/custom_button_type1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/about_tv"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="33dp" />
+
+    <ImageView
+        android:id="@+id/qicon"
+        android:layout_width="409dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/qmark"
+        android:textAlignment="center"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="27dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
