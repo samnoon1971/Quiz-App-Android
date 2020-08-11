@@ -18,9 +18,11 @@ public class ResultActivity extends AppCompatActivity {
         t2 = (TextView) findViewById(R.id.textView4);
         t3 = (TextView) findViewById(R.id.textView6);
         Intent i = getIntent();
-        String questions = i.getStringExtra("total");
+
         String correct = i.getStringExtra("correct");
         String wrong = i.getStringExtra("incorrect");
+        int total = Integer.valueOf(correct) + Integer.valueOf(wrong);
+        String questions = String.valueOf(total);
         t1.setText(questions);
         t2.setText(correct);
         t3.setText(wrong);

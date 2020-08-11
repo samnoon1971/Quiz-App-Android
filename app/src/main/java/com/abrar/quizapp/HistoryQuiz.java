@@ -62,7 +62,9 @@ public class HistoryQuiz extends AppCompatActivity {
         }
         else
         {
-            reference = FirebaseDatabase.getInstance().getReference().child(String.valueOf(total));
+            int min = 0, max = 40;
+            int currentNumber = (int) (Math.random() * (max - min + 1));
+            reference = FirebaseDatabase.getInstance().getReference().child(String.valueOf(currentNumber));
             reference.addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -298,10 +300,11 @@ public class HistoryQuiz extends AppCompatActivity {
             public void onFinish() {
                 textView.setText("Completed");
                 Intent intent = new Intent(HistoryQuiz.this, ResultActivity.class);
-                intent.putExtra("total", String.valueOf(total));
+
                 intent.putExtra("correct", String.valueOf(correct));
                 intent.putExtra("incorrect", String.valueOf(wrong));
                 startActivity(intent);
+                finish();
             }
         }.start();
     }
