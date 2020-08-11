@@ -17,7 +17,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".SettingsActivity"></activity>
-        <activity android:name=".NewGameActivity"></activity>
         <activity android:name=".AddFirebaseEntry"></activity>
         <activity android:name=".AboutActivity"></activity>
         <activity android:name=".HistoryQuiz"></activity>

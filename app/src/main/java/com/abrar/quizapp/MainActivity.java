@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "About selected", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(MainActivity.this, AboutActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
         exit = (Button) findViewById(R.id.exit_tv);
@@ -93,6 +94,7 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "About menu is called.", Toast.LENGTH_LONG).show();
         Intent intent = new Intent(MainActivity.this, AboutActivity.class);
         startActivity(intent);
+        finish();
     }
     public void callExitMenu() {
 
