@@ -42,6 +42,7 @@ public class HistoryQuiz extends AppCompatActivity {
         String tS = intent.getStringExtra("totalSeconds");
         totalSeconds = Integer.parseInt(tS);
         updateQuestion();
+        
         reverseTimer(totalSeconds, timerText);
 
     }
