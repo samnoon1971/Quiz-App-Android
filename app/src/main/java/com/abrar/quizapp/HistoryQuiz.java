@@ -318,11 +318,14 @@ public class HistoryQuiz extends AppCompatActivity {
                 {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
+                        Intent returnBtn = new Intent(HistoryQuiz.this, MainActivity.class);
+                        startActivity(returnBtn);
                         finish();
                     }
 
                 })
                 .setNegativeButton("No", null)
                 .show();
+
     }
 }

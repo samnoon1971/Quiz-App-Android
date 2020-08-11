@@ -47,7 +47,7 @@
         android:text="@string/s_m_samnoon_abrar"
         android:textAlignment="center"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="25sp"
+        android:textSize="20sp"
 
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@id/about_devtitle_tv"
@@ -63,7 +63,8 @@
         android:text="@string/dipta_mazumdar"
         android:textAlignment="center"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="25sp"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
         android:textStyle="bold"
 
         app:layout_constraintTop_toBottomOf="@id/about_dev1_tv"
@@ -78,9 +79,9 @@
         android:gravity="center_horizontal"
         android:text="@string/md_omar_faruque_fahad"
         android:textAlignment="center"
-
+        android:layout_marginTop="20dp"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="25sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@id/about_dev2_tv"
         tools:ignore="MissingConstraints" />
@@ -101,6 +102,24 @@
         app:layout_constraintTop_toBottomOf="@id/about_dev3_tv"
         tools:ignore="MissingConstraints" />
 
+    <TextView
+        android:id="@+id/about_dev5_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/customtv_1"
+
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="Course Teacher: Md. Rifat Hossain"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        app:layout_constraintTop_toBottomOf="@id/about_dev4_tv"
+        tools:ignore="MissingConstraints" />
+
+
     <Button
         android:id="@+id/back_from_settings_tv"
         android:layout_width="match_parent"
@@ -112,7 +131,7 @@
         android:textSize="35sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/about_dev4_tv"
+        app:layout_constraintTop_toBottomOf="@+id/about_dev5_tv"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="1dp" />
 

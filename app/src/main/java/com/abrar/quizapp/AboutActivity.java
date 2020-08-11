@@ -1,6 +1,7 @@
 package com.abrar.quizapp;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -37,6 +38,8 @@ public class AboutActivity extends AppCompatActivity {
                         {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
+                                Intent returnBtn = new Intent(AboutActivity.this, MainActivity.class);
+                                startActivity(returnBtn);
                                 finish();
                             }
 
@@ -47,6 +50,26 @@ public class AboutActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        new AlertDialog.Builder(AboutActivity.this)
+                .setIcon(android.R.drawable.ic_dialog_alert)
+                .setTitle("Go back to main menu")
+                .setMessage("Are you sure?")
+                .setPositiveButton("Yes", new DialogInterface.OnClickListener()
+                {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Intent returnBtn = new Intent(AboutActivity.this, MainActivity.class);
+                        startActivity(returnBtn);
+                        finish();
+                    }
+
+                })
+                .setNegativeButton("No", null)
+                .show();
     }
 
 }

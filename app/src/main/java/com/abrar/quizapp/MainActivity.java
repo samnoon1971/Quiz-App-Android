@@ -115,4 +115,24 @@ public class MainActivity extends AppCompatActivity {
                 .setNegativeButton("No", null)
                 .show();
     }
+
+    @Override
+    public void onBackPressed() {
+        Toast.makeText(this, "Exit menu is called.", Toast.LENGTH_LONG).show();
+        new AlertDialog.Builder(MainActivity.this)
+                .setIcon(android.R.drawable.ic_dialog_alert)
+                .setTitle("Exit App")
+                .setMessage("Are you sure you want to exit the App?")
+                .setPositiveButton("Yes", new DialogInterface.OnClickListener()
+                {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        System.exit(0);
+                    }
+
+                })
+                .setNegativeButton("No", null)
+                .show();
+    }
+
 }
