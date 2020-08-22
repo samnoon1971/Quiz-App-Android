@@ -57,13 +57,26 @@ public class HistoryQuiz extends AppCompatActivity {
             correct = 0;
             total = 0;
             wrong = 0;
+            /*
+            Recursive calls, method stops once the total number of question is exceeded or time is reached maximum limit
+            else it continues calling itself
+             */
             startActivity(intent);
             finish();
         }
         else
         {
+            /*
+
+            Declaring a random number in the range of 0 and 40, because we set the maximum database size to 40.
+            Randomized question to ensure trivial game mode
+             */
             int min = 0, max = 40;
             int currentNumber = (int) (Math.random() * (max - min + 1));
+
+            /*
+            Getting connection from firebase db and setting the instance to reference object
+             */
             reference = FirebaseDatabase.getInstance().getReference().child(String.valueOf(currentNumber));
             reference.addValueEventListener(new ValueEventListener() {
                 @Override
@@ -123,6 +136,9 @@ public class HistoryQuiz extends AppCompatActivity {
                     });
 
 
+                    /*
+                    When option 2 is selected, bellow code
+                     */
 
 
                     optionBtn2.setOnClickListener(new View.OnClickListener() {
@@ -173,6 +189,9 @@ public class HistoryQuiz extends AppCompatActivity {
                     });
 
 
+                    /*
+                    When option 3 is selected, bellow code
+                     */
 
 
                     optionBtn3.setOnClickListener(new View.OnClickListener() {
@@ -228,7 +247,10 @@ public class HistoryQuiz extends AppCompatActivity {
 
 
 
+                 /*
+                 When option4 is selected, bellow code
 
+                  */
 
                     optionBtn4.setOnClickListener(new View.OnClickListener() {
 
@@ -289,6 +311,12 @@ public class HistoryQuiz extends AppCompatActivity {
 
     }
 
+    /*
+    Bellow method does the following things:
+    1. Counts and manages time using a countdowntimer
+     2. launches result activity when the game is finished
+
+     */
     public void reverseTimer(int Seconds, final TextView textView) {
         new CountDownTimer(Seconds * 1000 + 1000, 1000){
             public void onTick(long millisUntilFinished) {
@@ -308,6 +336,11 @@ public class HistoryQuiz extends AppCompatActivity {
             }
         }.start();
     }
+
+    /*
+
+    back button event handling
+     */
     @Override
     public void onBackPressed() {
         new AlertDialog.Builder(HistoryQuiz.this)

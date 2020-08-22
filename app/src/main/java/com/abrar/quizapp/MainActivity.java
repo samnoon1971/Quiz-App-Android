@@ -23,24 +23,14 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-       //  getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-
-
-         /*
-        new Handler().postDelayed(new Runnable(){
-            @Override
-            public void run() {
-                Intent intent = new Intent(MainActivity.this, HomeActivity.class);
-                startActivity(intent);
-                finish();
-            }
-        }, SPLASH_TIMEOUT);
-
-
-          */
         setContentView(R.layout.activity_main);
         newGame = (Button) findViewById(R.id.new_game_tv);
+
+        /*
+
+        launch main game activity
+         */
 
         newGame.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,6 +43,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        /*
+        launch about activity
+         */
         about = (Button) findViewById(R.id.about_tv);
         about.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -72,6 +65,10 @@ public class MainActivity extends AppCompatActivity {
         });
         imageView = (ImageView) findViewById(R.id.qicon);
     }
+
+    /*
+    Setuping menu lifecycle methods
+     */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
@@ -96,6 +93,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
         finish();
     }
+
+    /*
+
+    Exit menu calling
+     */
     public void callExitMenu() {
 
 

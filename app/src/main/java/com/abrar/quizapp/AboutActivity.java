@@ -12,6 +12,11 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class AboutActivity extends AppCompatActivity {
+
+    /*
+    declaring textview and buttons
+
+     */
     private TextView title_tv, dev1_tv, dev2_tv, dev3_tv, dev4_tv;
     private Button back_btn;
 
@@ -51,6 +56,7 @@ public class AboutActivity extends AppCompatActivity {
         });
 
     }
+
 
     @Override
     public void onBackPressed() {
