@@ -41,8 +41,8 @@
 
     <Button
         android:id="@+id/exit_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="161dp"
+        android:layout_height="76dp"
         android:background="@drawable/custom_button_type1"
         android:text="@string/exit"
         android:textColor="@color/colorPrimaryDark"
@@ -50,9 +50,9 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/about_tv"
-        app:layout_constraintVertical_bias="0.561"
+        app:layout_constraintVertical_bias="0.698"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="161dp" />
+        tools:layout_editor_absoluteX="125dp" />
 
     <ImageView
         android:id="@+id/qicon"
