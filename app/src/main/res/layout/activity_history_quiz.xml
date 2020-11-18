@@ -3,29 +3,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#e4efe9"
     android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/hquizintro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/custom_btn3"
         android:gravity="center_horizontal"
         android:padding="10dp"
         android:text="@string/loading"
         android:textAlignment="center"
         android:textSize="30sp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="30dp" />
+        tools:layout_editor_absoluteX="1dp" />
 
     <Button
         android:id="@+id/history_btn1"
-        android:layout_width="413dp"
-        android:layout_height="92dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:background="@drawable/custom_btn3"
+        android:background="@drawable/custom_button_type1"
         android:gravity="center_horizontal"
         android:padding="10dp"
         android:text="@string/loading"
@@ -34,15 +31,14 @@
         app:layout_constraintTop_toBottomOf="@id/hquizintro"
 
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-2dp" />
-
+        tools:layout_editor_absoluteX="1dp" />
 
     <Button
         android:id="@+id/history_btn2"
-        android:layout_width="414dp"
-        android:layout_height="87dp"
-        android:layout_marginTop="36dp"
-        android:background="@drawable/custom_btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_button_type1"
         android:gravity="center_horizontal"
         android:padding="10dp"
         android:text="@string/loading"
@@ -51,14 +47,15 @@
         app:layout_constraintTop_toBottomOf="@id/history_btn1"
 
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-3dp" />
+        tools:layout_editor_absoluteX="1dp" />
+
 
     <Button
         android:id="@+id/history_btn3"
-        android:layout_width="413dp"
-        android:layout_height="79dp"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/custom_btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_button_type1"
         android:gravity="center_horizontal"
         android:padding="10dp"
         android:text="@string/loading"
@@ -67,14 +64,15 @@
         app:layout_constraintTop_toBottomOf="@id/history_btn2"
 
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-2dp" />
+        tools:layout_editor_absoluteX="1dp" />
+
 
     <Button
         android:id="@+id/history_btn4"
-        android:layout_width="411dp"
-        android:layout_height="76dp"
-        android:layout_marginTop="36dp"
-        android:background="@drawable/custom_btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_button_type1"
         android:gravity="center_horizontal"
         android:padding="10dp"
         android:text="@string/loading"
@@ -83,7 +81,7 @@
         app:layout_constraintTop_toBottomOf="@id/history_btn3"
 
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="1dp" />
 
     <TextView
         android:layout_width="match_parent"
