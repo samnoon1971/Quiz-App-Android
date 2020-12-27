@@ -7,12 +7,12 @@ This app is part of Software Engineering Lab Sessional Project (3-II) by-
 Language: Java
 IDE: Android Studio
 Database: Firebase
-After opening the app, the user will see this:
+<h1 style="background-color:DodgerBlue;">After opening the app, the user will see this: </h1>
+
 ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/FirstPage.png)
 
 <h1 style="background-color:DodgerBlue;">Then Selecting about button, the following will be displayed: </h1>
 
-Then selecting about button, the following will be displayed: 
 ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/AboutPage.png)
 
 
