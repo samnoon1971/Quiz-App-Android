@@ -1,4 +1,5 @@
 # Quiz-App-Android
+<h2>
 <b>
 This app is part of Software Engineering Lab Sessional Project (3-II) by-
 </b>
@@ -9,6 +10,7 @@ This app is part of Software Engineering Lab Sessional Project (3-II) by-
 <br>
 1106017, Md. Omar Faruqe Fahad
 <br>
+ </h2>
 <h2>
 Language: Java
  <br>
