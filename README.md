@@ -18,7 +18,6 @@ This app is part of Software Engineering Lab Sessional Project (3-II) by-
 <h2>
 Language: Java,  Database: Firebase
  </h2>
- ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/UMLPNG.png)
  <p>
  <h2>Description:</h2>
 
@@ -48,7 +47,7 @@ Language: Java,  Database: Firebase
    </body>
  
  </p>
- 
+ <h2>UML Diagram</h2>
 ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/UMLPNG.png)
 <h1 style="background-color:DodgerBlue;">After opening the app, the user will see this: </h1>
 
