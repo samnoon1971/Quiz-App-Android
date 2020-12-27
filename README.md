@@ -10,7 +10,7 @@ Database: Firebase
 After opening the app, the user will see this:
 ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/FirstPage.png)
 
-<h1 style="background-color:DodgerBlue;">Hello World</h1>
+<h1 style="background-color:DodgerBlue;">Then Selecting about button, the following will be displayed: </h1>
 
 Then selecting about button, the following will be displayed: 
 ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/AboutPage.png)
