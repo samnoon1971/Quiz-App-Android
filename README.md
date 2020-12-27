@@ -24,7 +24,7 @@ Database: Firebase
  </h2>
  
  <p>
- <h6>Description,<\h6>
+ <h2>Description,</h2>
   <body>
    <h5>
    This app is built using android studio. The app contains Six (06) Classes, these are: 
