@@ -23,7 +23,7 @@ Language: Java,  Database: Firebase
  <h2>Description:</h2>
   <body>
    <h3>
-   This app is built using android studio. The app contains Six (06) Classes, these are: 
+   This app is built in android studio. The app contains Six (06) Classes, these are: 
    <br>
    <br>
     
