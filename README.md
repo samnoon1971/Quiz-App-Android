@@ -48,6 +48,8 @@ Language: Java,  Database: Firebase
    </body>
  
  </p>
+ 
+![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/UMLPNG.png)
 <h1 style="background-color:DodgerBlue;">After opening the app, the user will see this: </h1>
 
 ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/FirstPage.png)
