@@ -24,13 +24,15 @@ and,
 ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/ThirdPage.png)
 
 After the quiz timer is set, the game will start:
+
+![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/QuizView1.png)
+
 ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/Q2.png)
 
 ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/Q4.png)
 
 ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/Q3.png)
 
-![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/QuizView1.png)
 
 And, after timeout the result will be displayed for current settings: 
 ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/ResultView.png)
