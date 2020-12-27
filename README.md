@@ -18,7 +18,7 @@ This app is part of Software Engineering Lab Sessional Project (3-II) by-
 <h2>
 Language: Java,  Database: Firebase
  </h2>
- ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/UMLQUIZ.jpg)
+ ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/UMLPNG.png)
  <p>
  <h2>Description:</h2>
 
