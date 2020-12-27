@@ -17,8 +17,6 @@ Then selecting about button, the following will be displayed:
 
 
 Selecting the new game button will open settings menu:
-![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/AboutPage.png)
-
 ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/ForthPage.png)
 
 and, 
