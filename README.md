@@ -29,16 +29,22 @@ Database: Firebase
    <h3>
    This app is built using android studio. The app contains Six (06) Classes, these are: 
    <br>
+    
    MainActivity (The activity that starts when the user opens the app),
    <br>
+   
    SettingsActivity (The activity that shows preferences settings for the game session), 
    <br>
+   
    HistoryQuiz (The activity that runs the quiz with a recursive timer),
    <br>
+   
    ResultActivity (Shows result),
    <br>
+   
    QuizQuestions (The class that contains the quiz structure),
    <br>
+   
    AboutActivity (Shows game info), 
    </h3>
    </body>
