@@ -47,7 +47,7 @@ Language: Java,  Database: Firebase
    </body>
  
  </p>
- <h2>UML Diagram</h2>
+ <b>UML Diagram</b>
 ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/UMLPNG.png)
 <h1 style="background-color:DodgerBlue;">After opening the app, the user will see this: </h1>
 
