@@ -9,7 +9,7 @@ IDE: Android Studio
 Database: Firebase
 <h1>
 After opening the app, the user will see this:
-  <\h1>
+  </h1>
 ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/FirstPage.png)
 
 
