@@ -18,10 +18,10 @@ This app is part of Software Engineering Lab Sessional Project (3-II) by-
 <h2>
 Language: Java,  Database: Firebase
  </h2>
- 
+  ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/UMLQUIZ.jpg)
  <p>
  <h2>Description:</h2>
- ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/UMLQUIZ.jpg)
+
   <body>
    <h3>
    This app is developed in android studio. The app contains Six (06) Activity/Classes, these are: 
