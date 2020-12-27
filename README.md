@@ -15,8 +15,8 @@ This app is part of Software Engineering Lab Sessional Project (3-II) by-
  </i>
 <br>
  </h4>
-<h2>
-Language: Java <tab> IDE: Android Studio <tab> Database: Firebase
+<h2 padding-left: 5em>
+Language: Java IDE: Android Studio Database: Firebase
  </h2>
  
  <p>
