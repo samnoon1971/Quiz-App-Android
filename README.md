@@ -29,6 +29,7 @@ Database: Firebase
    <h3>
    This app is built using android studio. The app contains Six (06) Classes, these are: 
    <br>
+   <br>
     
    MainActivity (The activity that starts when the user opens the app),
    <br>
