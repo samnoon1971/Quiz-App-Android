@@ -11,19 +11,24 @@ Database: Firebase
 
 ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/FirstPage.png)
 
+
+
 <h1 style="background-color:DodgerBlue;">Then Selecting about button, the following will be displayed: </h1>
 
 ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/AboutPage.png)
 
 
-Selecting the new game button will open settings menu:
+<h1 style="background-color:DodgerBlue;">Selecting the new game button will open settings menu: </h1>
+
 ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/ForthPage.png)
 
-and, 
+
+<h1 style="background-color:DodgerBlue;">And, </h1>
 
 ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/ThirdPage.png)
 
-After the quiz timer is set, the game will start:
+
+<h1 style="background-color:DodgerBlue;">After the quiz timer is set, the game will start: </h1>
 
 ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/QuizView1.png)
 
@@ -34,9 +39,13 @@ After the quiz timer is set, the game will start:
 ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/Q3.png)
 
 
-And, after timeout the result will be displayed for current settings: 
+
+<h1 style="background-color:DodgerBlue;">And, after timeout the result will be displayed for current settings:</h1>
+ 
 ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/ResultView.png)
 
-Finally, Exit menu will close the app:
+
+<h1 style="background-color:DodgerBlue;">Finally, Exit menu will close the app: </h1>
+
 ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/%20(6).png)
 
