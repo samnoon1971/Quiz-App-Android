@@ -2,10 +2,13 @@
 <b>
 This app is part of Software Engineering Lab Sessional Project (3-II) by-
 </b>
+<br>
 1106004, S M Samnoon Abrar
+<br>
 1106003, Dipta Mazumdar
+<br>
 1106017, Md. Omar Faruqe Fahad
-
+<br>
 Language: Java
 IDE: Android Studio
 Database: Firebase
