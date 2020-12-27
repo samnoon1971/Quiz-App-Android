@@ -24,8 +24,9 @@ Database: Firebase
  </h2>
  
  <p>
- <h6>Description,\h6>
+ <h6>Description,<\h6>
   <body>
+   <h5>
    This app is built using android studio. The app contains Six (06) Classes, these are: 
    <br>
    MainActivity (The activity that starts when the user opens the app),
@@ -39,6 +40,7 @@ Database: Firebase
    QuizQuestions (The class that contains the quiz structure),
    <br>
    AboutActivity (Shows game info), 
+   </h5>
    </body>
  
  </p>
