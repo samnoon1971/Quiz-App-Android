@@ -21,6 +21,7 @@ Language: Java,  Database: Firebase
  
  <p>
  <h2>Description:</h2>
+ ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/UMLQUIZ.jpg)
   <body>
    <h3>
    This app is developed in android studio. The app contains Six (06) Activity/Classes, these are: 
