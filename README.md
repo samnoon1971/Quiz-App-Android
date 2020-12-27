@@ -22,6 +22,26 @@ IDE: Android Studio
 <br>
 Database: Firebase
  </h2>
+ 
+ <p>
+ <h6>Description,\h6>
+  <body>
+   This app is built using android studio. The app contains Six (06) Classes, these are: 
+   <br>
+   MainActivity (The activity that starts when the user opens the app),
+   <br>
+   SettingsActivity (The activity that shows preferences settings for the game session), 
+   <br>
+   HistoryQuiz (The activity that runs the quiz with a recursive timer),
+   <br>
+   ResultActivity (Shows result),
+   <br>
+   QuizQuestions (The class that contains the quiz structure),
+   <br>
+   AboutActivity (Shows game info), 
+   </body>
+ 
+ </p>
 <h1 style="background-color:DodgerBlue;">After opening the app, the user will see this: </h1>
 
 ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/FirstPage.png)
