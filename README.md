@@ -3,6 +3,8 @@
 <b>
 This app is part of Software Engineering Lab Sessional Project (3-II) by-
 </b>
+ </h2>
+ <h4>
 <br>
 1106004, S M Samnoon Abrar
 <br>
@@ -10,7 +12,7 @@ This app is part of Software Engineering Lab Sessional Project (3-II) by-
 <br>
 1106017, Md. Omar Faruqe Fahad
 <br>
- </h2>
+ </h4>
 <h2>
 Language: Java
  <br>
