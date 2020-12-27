@@ -9,3 +9,4 @@ IDE: Android Studio
 Database: Firebase
 
 
+![After opening the app, the user will see this page](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/FirstPage.png)
