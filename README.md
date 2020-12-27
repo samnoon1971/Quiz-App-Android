@@ -1,5 +1,7 @@
 # Quiz-App-Android
+<b>
 This app is part of Software Engineering Lab Sessional Project (3-II) by-
+</b>
 1106004, S M Samnoon Abrar
 1106003, Dipta Mazumdar
 1106017, Md. Omar Faruqe Fahad
