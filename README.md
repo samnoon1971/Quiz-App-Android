@@ -9,9 +9,13 @@ This app is part of Software Engineering Lab Sessional Project (3-II) by-
 <br>
 1106017, Md. Omar Faruqe Fahad
 <br>
+<h2>
 Language: Java
+ <br>
 IDE: Android Studio
+<br>
 Database: Firebase
+ </h2>
 <h1 style="background-color:DodgerBlue;">After opening the app, the user will see this: </h1>
 
 ![](https://github.com/samnoon1971/Quiz-App-Android/blob/master/GUI/FirstPage.png)
